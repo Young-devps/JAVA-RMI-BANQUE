@@ -1,0 +1,10 @@
+package client;
+
+public class ClientRMI {
+
+	public static void main(String[] args) {
+		IbanqueRemote stub =(IbanqueRemote)Naming.lookup("rmi//localhost:1099/BK");
+
+	}
+
+}
